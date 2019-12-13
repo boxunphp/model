@@ -173,16 +173,16 @@
         },
         {
             "name": "boxunphp/php-mysql",
-            "version": "v1.0.1",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/boxunphp/php-mysql.git",
-                "reference": "0d0612f93ba1211bba04cc92115d3821d87b92ea"
+                "reference": "d1dac7141390e7ca0503917065039ed4bb59c6b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boxunphp/php-mysql/zipball/0d0612f93ba1211bba04cc92115d3821d87b92ea",
-                "reference": "0d0612f93ba1211bba04cc92115d3821d87b92ea",
+                "url": "https://api.github.com/repos/boxunphp/php-mysql/zipball/d1dac7141390e7ca0503917065039ed4bb59c6b8",
+                "reference": "d1dac7141390e7ca0503917065039ed4bb59c6b8",
                 "shasum": ""
             },
             "require": {
@@ -210,7 +210,7 @@
                 }
             ],
             "description": "PHP Mysql Client",
-            "time": "2019-12-13T03:14:09+00:00"
+            "time": "2019-12-13T13:24:21+00:00"
         },
         {
             "name": "boxunphp/php-redis",
