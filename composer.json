@@ -23,7 +23,7 @@
   },
   "autoload": {
     "psr-4": {
-      "All\\Model\\": ""
+      "All\\Model\\": "src/"
     }
   }
 }
