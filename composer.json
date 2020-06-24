@@ -1,5 +1,5 @@
 {
-  "name": "boxunphp/php-model",
+  "name": "boxunphp/model",
   "description": "PHP模型",
   "type": "library",
   "license": "MIT",
@@ -15,11 +15,11 @@
   },
   "require": {
     "php": "^7.2",
-    "boxunphp/php-instance": "dev-master",
-    "boxunphp/php-exception": "dev-master",
-    "boxunphp/php-mysql": "dev-master",
-    "boxunphp/php-cache": "dev-master",
-    "boxunphp/php-config": "dev-master"
+    "boxunphp/instance": "^2.0",
+    "boxunphp/exception": "^2.0",
+    "boxunphp/mysql": "^2.0",
+    "boxunphp/cache": "^2.0",
+    "boxunphp/config": "^2.0"
   },
   "autoload": {
     "psr-4": {

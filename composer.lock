@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4c6b11ce46b277b5ed23ba8ddc873f86",
+    "content-hash": "c08bf78477ab123c75813b3d700ddd81",
     "packages": [
         {
-            "name": "boxunphp/php-cache",
-            "version": "dev-master",
+            "name": "boxunphp/cache",
+            "version": "v2.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/boxunphp/php-cache.git",
-                "reference": "cda6b8da5b56ac747dd842919008d7bc971eec3d"
+                "url": "https://github.com/boxunphp/cache.git",
+                "reference": "35774473a9e2f58b39898eebf6dff5762d215b07"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boxunphp/php-cache/zipball/cda6b8da5b56ac747dd842919008d7bc971eec3d",
-                "reference": "cda6b8da5b56ac747dd842919008d7bc971eec3d",
+                "url": "https://api.github.com/repos/boxunphp/cache/zipball/35774473a9e2f58b39898eebf6dff5762d215b07",
+                "reference": "35774473a9e2f58b39898eebf6dff5762d215b07",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -27,11 +27,11 @@
                 ]
             },
             "require": {
-                "boxunphp/php-config": "dev-master",
-                "boxunphp/php-exception": "dev-master",
-                "boxunphp/php-instance": "dev-master",
-                "boxunphp/php-memcached": "dev-master",
-                "boxunphp/php-redis": "dev-master",
+                "boxunphp/config": "^2.0",
+                "boxunphp/exception": "^2.0",
+                "boxunphp/instance": "^2.0",
+                "boxunphp/memcached": "^2.0",
+                "boxunphp/redis": "^2.0",
                 "php": "^7.2"
             },
             "require-dev": {
@@ -54,20 +54,20 @@
                 }
             ],
             "description": "PHP缓存类",
-            "time": "2020-05-21T09:14:06+00:00"
+            "time": "2020-06-24T02:11:55+00:00"
         },
         {
-            "name": "boxunphp/php-config",
-            "version": "dev-master",
+            "name": "boxunphp/config",
+            "version": "v2.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/boxunphp/php-config.git",
-                "reference": "9c977a25021ce98a3afed57368dd72b4610ad899"
+                "url": "https://github.com/boxunphp/config.git",
+                "reference": "8df1c9a7ee9507fa28db9c521d7e8bf751a17bf4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boxunphp/php-config/zipball/9c977a25021ce98a3afed57368dd72b4610ad899",
-                "reference": "9c977a25021ce98a3afed57368dd72b4610ad899",
+                "url": "https://api.github.com/repos/boxunphp/config/zipball/8df1c9a7ee9507fa28db9c521d7e8bf751a17bf4",
+                "reference": "8df1c9a7ee9507fa28db9c521d7e8bf751a17bf4",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -77,8 +77,8 @@
                 ]
             },
             "require": {
-                "boxunphp/php-exception": "dev-master",
-                "boxunphp/php-instance": "dev-master",
+                "boxunphp/exception": "^2.0",
+                "boxunphp/instance": "^2.0",
                 "php": "^7.2"
             },
             "require-dev": {
@@ -101,20 +101,20 @@
                 }
             ],
             "description": "PHP 配置类",
-            "time": "2020-05-21T08:50:11+00:00"
+            "time": "2020-06-23T11:16:35+00:00"
         },
         {
-            "name": "boxunphp/php-exception",
-            "version": "dev-master",
+            "name": "boxunphp/exception",
+            "version": "v2.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/boxunphp/php-exception.git",
-                "reference": "9e95187386cacb85cdfabf4134885ec86edadeb3"
+                "url": "https://github.com/boxunphp/exception.git",
+                "reference": "5ec401f1b38b1056ddd5da0240cb8d2e462a3ca7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boxunphp/php-exception/zipball/9e95187386cacb85cdfabf4134885ec86edadeb3",
-                "reference": "9e95187386cacb85cdfabf4134885ec86edadeb3",
+                "url": "https://api.github.com/repos/boxunphp/exception/zipball/5ec401f1b38b1056ddd5da0240cb8d2e462a3ca7",
+                "reference": "5ec401f1b38b1056ddd5da0240cb8d2e462a3ca7",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -124,7 +124,6 @@
                 ]
             },
             "require": {
-                "boxunphp/php-utils": "dev-master",
                 "php": "^7.2"
             },
             "require-dev": {
@@ -147,20 +146,20 @@
                 }
             ],
             "description": "PHP Exception",
-            "time": "2020-05-21T09:08:05+00:00"
+            "time": "2020-06-23T11:11:09+00:00"
         },
         {
-            "name": "boxunphp/php-instance",
-            "version": "dev-master",
+            "name": "boxunphp/instance",
+            "version": "v2.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/boxunphp/php-instance.git",
-                "reference": "71cadc2ae2b41ef77cca7303fb38befd3ac07e6f"
+                "url": "https://github.com/boxunphp/instance.git",
+                "reference": "02fb39c15d2ed90ee6214359e51ea38354218c12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boxunphp/php-instance/zipball/71cadc2ae2b41ef77cca7303fb38befd3ac07e6f",
-                "reference": "71cadc2ae2b41ef77cca7303fb38befd3ac07e6f",
+                "url": "https://api.github.com/repos/boxunphp/instance/zipball/02fb39c15d2ed90ee6214359e51ea38354218c12",
+                "reference": "02fb39c15d2ed90ee6214359e51ea38354218c12",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -189,20 +188,20 @@
                 }
             ],
             "description": "php instance trait",
-            "time": "2020-05-21T07:49:53+00:00"
+            "time": "2020-06-23T11:01:37+00:00"
         },
         {
-            "name": "boxunphp/php-memcached",
-            "version": "dev-master",
+            "name": "boxunphp/memcached",
+            "version": "v2.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/boxunphp/php-memcached.git",
-                "reference": "c0ffe02d370a2ac8cd8aa8bc3e5a6e313c31bd07"
+                "url": "https://github.com/boxunphp/memcached.git",
+                "reference": "e95c86797cfc34c3714ae76f00af457f07e64e8a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boxunphp/php-memcached/zipball/c0ffe02d370a2ac8cd8aa8bc3e5a6e313c31bd07",
-                "reference": "c0ffe02d370a2ac8cd8aa8bc3e5a6e313c31bd07",
+                "url": "https://api.github.com/repos/boxunphp/memcached/zipball/e95c86797cfc34c3714ae76f00af457f07e64e8a",
+                "reference": "e95c86797cfc34c3714ae76f00af457f07e64e8a",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -212,8 +211,8 @@
                 ]
             },
             "require": {
-                "boxunphp/php-exception": "dev-master",
-                "boxunphp/php-instance": "dev-master",
+                "boxunphp/exception": "^v2.0",
+                "boxunphp/instance": "^v2.0",
                 "php": "^7.2"
             },
             "require-dev": {
@@ -236,20 +235,20 @@
                 }
             ],
             "description": "PHP Memcached Client",
-            "time": "2020-05-21T08:43:59+00:00"
+            "time": "2020-06-24T01:59:28+00:00"
         },
         {
-            "name": "boxunphp/php-mysql",
-            "version": "dev-master",
+            "name": "boxunphp/mysql",
+            "version": "v2.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/boxunphp/php-mysql.git",
-                "reference": "95605c3e0b55b67d1f847227e609f2355d4f8975"
+                "url": "https://github.com/boxunphp/mysql.git",
+                "reference": "ed746c332dbd5d4008191f4b5ee99a285bd7e56a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boxunphp/php-mysql/zipball/95605c3e0b55b67d1f847227e609f2355d4f8975",
-                "reference": "95605c3e0b55b67d1f847227e609f2355d4f8975",
+                "url": "https://api.github.com/repos/boxunphp/mysql/zipball/ed746c332dbd5d4008191f4b5ee99a285bd7e56a",
+                "reference": "ed746c332dbd5d4008191f4b5ee99a285bd7e56a",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -259,8 +258,8 @@
                 ]
             },
             "require": {
-                "boxunphp/php-exception": "dev-master",
-                "boxunphp/php-instance": "dev-master",
+                "boxunphp/exception": "^2.0",
+                "boxunphp/instance": "^2.0",
                 "php": "^7.2"
             },
             "require-dev": {
@@ -283,20 +282,20 @@
                 }
             ],
             "description": "PHP Mysql Client",
-            "time": "2020-05-21T10:12:19+00:00"
+            "time": "2020-06-24T02:14:44+00:00"
         },
         {
-            "name": "boxunphp/php-redis",
-            "version": "dev-master",
+            "name": "boxunphp/redis",
+            "version": "v2.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/boxunphp/php-redis.git",
-                "reference": "a6762508b208b912454d4ed7a96013adda386057"
+                "url": "https://github.com/boxunphp/redis.git",
+                "reference": "d6c05133b29ae7ef476adf85b6787ae2d8a71cbd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boxunphp/php-redis/zipball/a6762508b208b912454d4ed7a96013adda386057",
-                "reference": "a6762508b208b912454d4ed7a96013adda386057",
+                "url": "https://api.github.com/repos/boxunphp/redis/zipball/d6c05133b29ae7ef476adf85b6787ae2d8a71cbd",
+                "reference": "d6c05133b29ae7ef476adf85b6787ae2d8a71cbd",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -306,8 +305,8 @@
                 ]
             },
             "require": {
-                "boxunphp/php-exception": "dev-master",
-                "boxunphp/php-instance": "dev-master",
+                "boxunphp/exception": "^v2.0",
+                "boxunphp/instance": "^v2.0",
                 "php": "^7.2"
             },
             "require-dev": {
@@ -330,53 +329,7 @@
                 }
             ],
             "description": "PHP Redis Client",
-            "time": "2020-05-21T08:44:36+00:00"
-        },
-        {
-            "name": "boxunphp/php-utils",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/boxunphp/php-utils.git",
-                "reference": "7dfe2f2a7705f257f593c85980083f485744d09c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/boxunphp/php-utils/zipball/7dfe2f2a7705f257f593c85980083f485744d09c",
-                "reference": "7dfe2f2a7705f257f593c85980083f485744d09c",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
-            },
-            "require": {
-                "boxunphp/php-instance": "dev-master",
-                "php": "^7.2"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "8.*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "All\\Utils\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jordy",
-                    "email": "arno.zheng@gmail.com"
-                }
-            ],
-            "description": "PHP公共类和方法",
-            "time": "2020-05-21T09:01:46+00:00"
+            "time": "2020-06-24T01:57:30+00:00"
         }
     ],
     "packages-dev": [
@@ -386,12 +339,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/instantiator.git",
-                "reference": "6a1471ddbf2f448b35f3a8e390c903435e6dd5de"
+                "reference": "3e7a22aed197e9333cc929e7f6b4300bdae91fcc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/instantiator/zipball/6a1471ddbf2f448b35f3a8e390c903435e6dd5de",
-                "reference": "6a1471ddbf2f448b35f3a8e390c903435e6dd5de",
+                "url": "https://api.github.com/repos/doctrine/instantiator/zipball/3e7a22aed197e9333cc929e7f6b4300bdae91fcc",
+                "reference": "3e7a22aed197e9333cc929e7f6b4300bdae91fcc",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -401,7 +354,7 @@
                 ]
             },
             "require": {
-                "php": "^7.1"
+                "php": "^7.1 || ^8.0"
             },
             "require-dev": {
                 "doctrine/coding-standard": "^6.0",
@@ -440,7 +393,21 @@
                 "constructor",
                 "instantiate"
             ],
-            "time": "2019-12-23T19:18:31+00:00"
+            "funding": [
+                {
+                    "url": "https://www.doctrine-project.org/sponsorship.html",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://www.patreon.com/phpdoctrine",
+                    "type": "patreon"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/doctrine%2Finstantiator",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-06-15T18:51:04+00:00"
         },
         {
             "name": "myclabs/deep-copy",
@@ -493,6 +460,12 @@
                 "duplicate",
                 "object",
                 "object graph"
+            ],
+            "funding": [
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/myclabs/deep-copy",
+                    "type": "tidelift"
+                }
             ],
             "time": "2020-03-12T21:49:07+00:00"
         },
@@ -616,12 +589,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/ReflectionCommon.git",
-                "reference": "985f414b55eca4296ffc99db960a97b3cc8fbcea"
+                "reference": "cf8df60735d98fd18070b7cab0019ba0831e219c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/ReflectionCommon/zipball/985f414b55eca4296ffc99db960a97b3cc8fbcea",
-                "reference": "985f414b55eca4296ffc99db960a97b3cc8fbcea",
+                "url": "https://api.github.com/repos/phpDocumentor/ReflectionCommon/zipball/cf8df60735d98fd18070b7cab0019ba0831e219c",
+                "reference": "cf8df60735d98fd18070b7cab0019ba0831e219c",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -663,7 +636,7 @@
                 "reflection",
                 "static analysis"
             ],
-            "time": "2020-04-27T09:34:19+00:00"
+            "time": "2020-06-19T17:42:03+00:00"
         },
         {
             "name": "phpdocumentor/reflection-docblock",
@@ -671,12 +644,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git",
-                "reference": "cd72d394ca794d3466a3b2fc09d5a6c1dc86b47e"
+                "reference": "790426f28bfcbfc1a6f1d59ee8c986edfa45395c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/cd72d394ca794d3466a3b2fc09d5a6c1dc86b47e",
-                "reference": "cd72d394ca794d3466a3b2fc09d5a6c1dc86b47e",
+                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/790426f28bfcbfc1a6f1d59ee8c986edfa45395c",
+                "reference": "790426f28bfcbfc1a6f1d59ee8c986edfa45395c",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -722,7 +695,7 @@
                 }
             ],
             "description": "With this component, a library can provide support for annotations via DocBlocks or otherwise retrieve information that is embedded in a DocBlock.",
-            "time": "2020-02-22T12:28:44+00:00"
+            "time": "2020-06-19T18:58:43+00:00"
         },
         {
             "name": "phpdocumentor/type-resolver",
@@ -730,12 +703,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/TypeResolver.git",
-                "reference": "95d8782070ccd738295bbe4483f8760f998ad64d"
+                "reference": "94f3ddc5d77e49daadadd33b798b933e52dde82c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/TypeResolver/zipball/95d8782070ccd738295bbe4483f8760f998ad64d",
-                "reference": "95d8782070ccd738295bbe4483f8760f998ad64d",
+                "url": "https://api.github.com/repos/phpDocumentor/TypeResolver/zipball/94f3ddc5d77e49daadadd33b798b933e52dde82c",
+                "reference": "94f3ddc5d77e49daadadd33b798b933e52dde82c",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -774,7 +747,7 @@
                 }
             ],
             "description": "A PSR-5 based resolver of Class names, Types and Structural Element Names",
-            "time": "2020-05-13T13:46:15+00:00"
+            "time": "2020-06-19T19:40:27+00:00"
         },
         {
             "name": "phpspec/prophecy",
@@ -916,20 +889,26 @@
         },
         {
             "name": "phpunit/php-file-iterator",
-            "version": "dev-master",
+            "version": "2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-file-iterator.git",
-                "reference": "ee5d93c00b87b36e206f1e8407dfe3306f5fcb4d"
+                "reference": "050bedf145a257b1ff02746c31894800e5122946"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-file-iterator/zipball/ee5d93c00b87b36e206f1e8407dfe3306f5fcb4d",
-                "reference": "ee5d93c00b87b36e206f1e8407dfe3306f5fcb4d",
-                "shasum": ""
+                "url": "https://api.github.com/repos/sebastianbergmann/php-file-iterator/zipball/050bedf145a257b1ff02746c31894800e5122946",
+                "reference": "050bedf145a257b1ff02746c31894800e5122946",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
-                "php": "^7.3"
+                "php": "^7.1"
             },
             "require-dev": {
                 "phpunit/phpunit": "^7.1"
@@ -962,7 +941,7 @@
                 "filesystem",
                 "iterator"
             ],
-            "time": "2019-10-23T09:07:44+00:00"
+            "time": "2018-09-13T20:33:42+00:00"
         },
         {
             "name": "phpunit/php-text-template",
@@ -1013,20 +992,26 @@
         },
         {
             "name": "phpunit/php-timer",
-            "version": "dev-master",
+            "version": "2.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-timer.git",
-                "reference": "190db5a4b930a73afbba041cd3015aeb10d444d4"
+                "reference": "1038454804406b0b5f5f520358e78c1c2f71501e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-timer/zipball/190db5a4b930a73afbba041cd3015aeb10d444d4",
-                "reference": "190db5a4b930a73afbba041cd3015aeb10d444d4",
-                "shasum": ""
+                "url": "https://api.github.com/repos/sebastianbergmann/php-timer/zipball/1038454804406b0b5f5f520358e78c1c2f71501e",
+                "reference": "1038454804406b0b5f5f520358e78c1c2f71501e",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
-                "php": "^7.3"
+                "php": "^7.1"
             },
             "require-dev": {
                 "phpunit/phpunit": "^7.0"
@@ -1058,25 +1043,31 @@
             "keywords": [
                 "timer"
             ],
-            "time": "2019-10-23T09:04:52+00:00"
+            "time": "2019-06-07T04:22:29+00:00"
         },
         {
             "name": "phpunit/php-token-stream",
-            "version": "dev-master",
+            "version": "3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-token-stream.git",
-                "reference": "5bc2030589cad93e6c73ce3ccee3f5e960604a0d"
+                "reference": "995192df77f63a59e47f025390d2d1fdf8f425ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/5bc2030589cad93e6c73ce3ccee3f5e960604a0d",
-                "reference": "5bc2030589cad93e6c73ce3ccee3f5e960604a0d",
-                "shasum": ""
+                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/995192df77f63a59e47f025390d2d1fdf8f425ff",
+                "reference": "995192df77f63a59e47f025390d2d1fdf8f425ff",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "ext-tokenizer": "*",
-                "php": "^7.3"
+                "php": "^7.1"
             },
             "require-dev": {
                 "phpunit/phpunit": "^7.0"
@@ -1107,7 +1098,7 @@
             "keywords": [
                 "tokenizer"
             ],
-            "time": "2019-10-23T09:04:36+00:00"
+            "time": "2019-09-17T06:23:10+00:00"
         },
         {
             "name": "phpunit/phpunit",
@@ -1115,12 +1106,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "59a3636147285c8de8d4314c758c534a8d9fc9d6"
+                "reference": "b206dd32b5d0532cea4b9c6cffde60b350e4606e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/59a3636147285c8de8d4314c758c534a8d9fc9d6",
-                "reference": "59a3636147285c8de8d4314c758c534a8d9fc9d6",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/b206dd32b5d0532cea4b9c6cffde60b350e4606e",
+                "reference": "b206dd32b5d0532cea4b9c6cffde60b350e4606e",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -1196,24 +1187,40 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2020-05-12T05:25:55+00:00"
+            "funding": [
+                {
+                    "url": "https://phpunit.de/donate.html",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/sebastianbergmann",
+                    "type": "github"
+                }
+            ],
+            "time": "2020-06-23T12:12:41+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
-            "version": "dev-master",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/code-unit-reverse-lookup.git",
-                "reference": "5872e3737247e650995ac60e98611f69bfe8c556"
+                "reference": "4419fcdb5eabb9caa61a27c7a1db532a6b55dd18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/code-unit-reverse-lookup/zipball/5872e3737247e650995ac60e98611f69bfe8c556",
-                "reference": "5872e3737247e650995ac60e98611f69bfe8c556",
-                "shasum": ""
+                "url": "https://api.github.com/repos/sebastianbergmann/code-unit-reverse-lookup/zipball/4419fcdb5eabb9caa61a27c7a1db532a6b55dd18",
+                "reference": "4419fcdb5eabb9caa61a27c7a1db532a6b55dd18",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
-                "php": "^7.3"
+                "php": "^5.6 || ^7.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^5.7 || ^6.0"
@@ -1241,7 +1248,7 @@
             ],
             "description": "Looks up which function or method a line of code belongs to",
             "homepage": "https://github.com/sebastianbergmann/code-unit-reverse-lookup/",
-            "time": "2019-10-23T09:08:24+00:00"
+            "time": "2017-03-04T06:30:41+00:00"
         },
         {
             "name": "sebastian/comparator",
@@ -1377,7 +1384,7 @@
         },
         {
             "name": "sebastian/environment",
-            "version": "dev-master",
+            "version": "4.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/environment.git",
@@ -1387,10 +1394,16 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/464c90d7bdf5ad4e8a6aea15c091fec0603d4368",
                 "reference": "464c90d7bdf5ad4e8a6aea15c091fec0603d4368",
-                "shasum": ""
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
-                "php": "^7.3"
+                "php": "^7.1"
             },
             "require-dev": {
                 "phpunit/phpunit": "^7.5"
@@ -1726,20 +1739,26 @@
         },
         {
             "name": "sebastian/resource-operations",
-            "version": "dev-master",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/resource-operations.git",
-                "reference": "89893975fe3fcc2e60214471761af5e91cc7a933"
+                "reference": "4d7a795d35b889bf80a0cc04e08d77cedfa917a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/resource-operations/zipball/89893975fe3fcc2e60214471761af5e91cc7a933",
-                "reference": "89893975fe3fcc2e60214471761af5e91cc7a933",
-                "shasum": ""
+                "url": "https://api.github.com/repos/sebastianbergmann/resource-operations/zipball/4d7a795d35b889bf80a0cc04e08d77cedfa917a9",
+                "reference": "4d7a795d35b889bf80a0cc04e08d77cedfa917a9",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
-                "php": "^7.3"
+                "php": "^7.1"
             },
             "type": "library",
             "extra": {
@@ -1764,7 +1783,7 @@
             ],
             "description": "Provides a list of PHP built-in functions that operate on resources",
             "homepage": "https://www.github.com/sebastianbergmann/resource-operations",
-            "time": "2019-10-23T09:09:44+00:00"
+            "time": "2018-10-04T04:07:39+00:00"
         },
         {
             "name": "sebastian/type",
@@ -1873,12 +1892,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "e94c8b1bbe2bc77507a1056cdb06451c75b427f9"
+                "reference": "2edd75b8b35d62fd3eeabba73b26b8f1f60ce13d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/e94c8b1bbe2bc77507a1056cdb06451c75b427f9",
-                "reference": "e94c8b1bbe2bc77507a1056cdb06451c75b427f9",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/2edd75b8b35d62fd3eeabba73b26b8f1f60ce13d",
+                "reference": "2edd75b8b35d62fd3eeabba73b26b8f1f60ce13d",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -1897,6 +1916,10 @@
             "extra": {
                 "branch-alias": {
                     "dev-master": "1.17-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
                 }
             },
             "autoload": {
@@ -1929,7 +1952,21 @@
                 "polyfill",
                 "portable"
             ],
-            "time": "2020-05-12T16:14:59+00:00"
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-06-06T08:46:27+00:00"
         },
         {
             "name": "theseer/tokenizer",
@@ -1979,16 +2016,16 @@
         },
         {
             "name": "webmozart/assert",
-            "version": "1.8.0",
+            "version": "1.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webmozart/assert.git",
-                "reference": "ab2cb0b3b559010b75981b1bdce728da3ee90ad6"
+                "reference": "9dc4f203e36f2b486149058bade43c851dd97451"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozart/assert/zipball/ab2cb0b3b559010b75981b1bdce728da3ee90ad6",
-                "reference": "ab2cb0b3b559010b75981b1bdce728da3ee90ad6",
+                "url": "https://api.github.com/repos/webmozart/assert/zipball/9dc4f203e36f2b486149058bade43c851dd97451",
+                "reference": "9dc4f203e36f2b486149058bade43c851dd97451",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -2002,6 +2039,7 @@
                 "symfony/polyfill-ctype": "^1.8"
             },
             "conflict": {
+                "phpstan/phpstan": "<0.12.20",
                 "vimeo/psalm": "<3.9.1"
             },
             "require-dev": {
@@ -2029,22 +2067,17 @@
                 "check",
                 "validate"
             ],
-            "time": "2020-04-18T12:12:48+00:00"
+            "time": "2020-06-16T10:16:42+00:00"
         }
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "boxunphp/php-instance": 20,
-        "boxunphp/php-exception": 20,
-        "boxunphp/php-mysql": 20,
-        "boxunphp/php-cache": 20,
-        "boxunphp/php-config": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
         "php": "^7.2"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }
